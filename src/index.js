@@ -26,7 +26,7 @@ function MyButton(props) {
 
 function MyTime(props) {
   return <div>
-    <h1 class='response'>Time was stopped at: {props.stopTime}</h1>
+    <h1 className='response'>Time was stopped at: {props.stopTime}</h1>
   </div>;
 }
 
